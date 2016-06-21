@@ -20,7 +20,6 @@
           templateUrl: 'partials/convenio-map.html'
         };
       })
-    
     .directive('ingenieroImage', function () {
         return {
           restrict: 'E',
