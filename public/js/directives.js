@@ -14,6 +14,12 @@
           templateUrl: 'partials/convenio-name.html'
         };
       })
+    .directive('convenioMap', function () {
+        return {
+          restrict: 'E',
+          templateUrl: 'partials/convenio-map.html'
+        };
+      })
     .directive('ingenieroImage', function () {
         return {
           restrict: 'E',
